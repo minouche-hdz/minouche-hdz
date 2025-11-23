@@ -23,7 +23,7 @@ Je travaille activement à enrichir mon portfolio avec des projets qui mettent e
 *   **Application Web Vulnérable (pour l'apprentissage) :** Création d'une application web avec des vulnérabilités intentionnelles, suivie d'une documentation détaillée sur leur exploitation et leur correction.
 *   **Scripts d'Automatisation de Sécurité :** Développement de scripts Python pour des tâches de sécurité courantes (scan de ports, énumération, etc.).
 *   **Write-ups de CTF :** Partage de mes solutions et apprentissages suite à ma participation à des Capture The Flag.
-*   **Prowstream :** Refonte de l'application Plex pour un usage personnel.
+*   **Prowstream (WIP) :** Refonte de l'application Plex pour un usage personnel, un back-end est nestJS et un front-end en react/nextjs
 
 ## 🌐 Connectons-nous
 
