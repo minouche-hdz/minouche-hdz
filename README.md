@@ -12,7 +12,7 @@ Développeur Backend passionné par la cybersécurité et le pentesting. Fort d'
 
 ## 🎓 Mon Parcours en Cybersécurité
 
-Actuellement en formation intensive en pentesting, je suis une méthodologie structurée basée sur le **PTES** (Penetration Testing Execution Standard). Mon apprentissage est entièrement documenté dans mon dépôt **[pentest_learning](https://github.com/minouche-hdz/pentest_learning)** 🛡️.
+Actuellement en formation intensive en pentesting, je suis une méthodologie structurée basée sur le **PTES** (Penetration Testing Execution Standard). Mon apprentissage est entièrement documenté dans mon dépôt **[pentest_learning](https://github.com/minouche-hdz/pentest-learning)** 🛡️.
 
 ### 🏆 Compétences Validées
 
