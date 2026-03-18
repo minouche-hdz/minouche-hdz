@@ -18,6 +18,7 @@ Actuellement en formation intensive en pentesting, je suis une méthodologie str
 
 | Certification | Organisme | Date |
 |---|---|---|
+| ✅ Cybersecurity Certificate | Google | Octobre 2025 |
 | ✅ Cybersecurity 101 | TryHackMe | Mars 2026 |
 
 ### 🎯 Certifications Visées
