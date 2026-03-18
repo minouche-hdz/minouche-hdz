@@ -14,6 +14,19 @@ Développeur Backend passionné par la cybersécurité et le pentesting. Fort d'
 
 Actuellement en formation intensive en pentesting, je suis une méthodologie structurée basée sur le **PTES** (Penetration Testing Execution Standard). Mon apprentissage est entièrement documenté dans mon dépôt **[pentest_learning](https://github.com/minouche-hdz/pentest-learning)** 🛡️.
 
+### 🏅 Certifications Obtenues
+
+| Certification | Organisme | Date |
+|---|---|---|
+| ✅ Cybersecurity 101 | TryHackMe | Mars 2026 |
+
+### 🎯 Certifications Visées
+| Certification | Statut |
+|---|---|
+| eJPT | Jr Penetration Tester path — 42% ✓ |
+| PNPT | À venir |
+| OSCP | À venir |
+
 ### 🏆 Compétences Validées
 
 #### 🔍 Reconnaissance & Énumération
@@ -115,7 +128,7 @@ Dépôt structuré documentant mon apprentissage complet en pentesting :
 
 ## 🎯 Objectifs 2026
 
-- [ ] Continuer mon apprentissage en pentest et me perfectionner
+- [x] **TryHackMe Cybersecurity 101** ✅ Mars 2026
 - [ ] **Certification eJPT** (eLearnSecurity Junior Penetration Tester)
 - [ ] **Certification OSCP** (Offensive Security Certified Professional)
 - [ ] Participer activement à des CTF (Capture The Flag)
