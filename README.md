@@ -1,151 +1,96 @@
-# Salut, je m'appelle Emilien ! 👋
+# Salut, je m'appelle Emilien 👋
 
-Développeur Backend passionné par la cybersécurité et le pentesting. Fort d'une formation solide en développement backend, je suis actuellement en reconversion vers la sécurité offensive, avec un parcours structuré et documenté pour devenir Pentester professionnel.
+**DevSecOps Engineer | Backend Developer | Cybersecurity**
 
-## 🚀 Mes Objectifs
+Développeur back-end devenu ingénieur DevSecOps, je conçois et sécurise des infrastructures de bout en bout : réseaux zero-trust, clusters Kubernetes, pipelines CI/CD et supervision. En parallèle, je mène une reconversion structurée et documentée vers le pentesting professionnel, avec une pratique active de la sécurité offensive.
 
-*   **Développement Backend :** Concevoir et implémenter des architectures backend performantes, scalables et sécurisées.
-*   **Pentesting & Cybersécurité :** Identifier les vulnérabilités, renforcer la sécurité des systèmes et contribuer à un environnement numérique plus sûr.
-*   **Certifications visées :** eJPT, OSCP, PNPT
+📍 Metz (France) · [LinkedIn](https://www.linkedin.com/in/emilien-hernandez) · [TryHackMe — Spyder.minou](https://tryhackme.com/p/Spyder.minou) (top 5%)
 
 ---
 
-## 🎓 Mon Parcours en Cybersécurité
+## 💼 Expérience
 
-Actuellement en formation intensive en pentesting, je suis une méthodologie structurée basée sur le **PTES** (Penetration Testing Execution Standard). Mon apprentissage est entièrement documenté dans mon dépôt **[pentest_learning](https://github.com/minouche-hdz/pentest-learning)** 🛡️.
+### Ingénieur DevSecOps — Paxpar *(Avr. 2025 – présent, Troyes)*
+- Conception et migration d'un VPN OpenVPN vers une architecture **zero-trust NetBird** interconnectant 5 sites, avec gestion fine des accès et sessions à durée limitée.
+- Déploiement et administration d'un **cluster Kubernetes (K3s)** sur 10 serveurs Linux (Fedora/Ubuntu), au service de 15 utilisateurs, avec NATS et Redis pour la messagerie et le cache.
+- Stack d'observabilité et de sécurité : **Wazuh, Prometheus, Loki, Grafana, CrowdSec**, centralisation de l'authentification avec **Authentik**.
+- Conception d'une API REST **FastAPI** intégrée aux pipelines **CI/CD GitLab**.
+- Stockage objet S3-compatible (**SeaweedFS**) et infrastructure IA locale (**Ollama**), accessible via NetBird ; audits de sécurité et durcissement des systèmes.
 
-### 🏅 Certifications Obtenues
+`NetBird` `K3s` `Docker` `NATS` `Redis` `FastAPI` `GitLab CI/CD` `SeaweedFS` `Ollama` `Authentik` `CrowdSec` `Wazuh` `Prometheus` `Loki` `Grafana`
 
-| Certification | Organisme | Date |
+### Développeur Backend — Eutech *(Alternance, 2022–2023, Troyes)*
+- Fonctionnalités backend en **Ruby**, suite de tests unitaires (RSpec) et comportementaux (Turnip).
+- API **GraphQL**, modélisation de données, **Redis** pour les données à faible latence.
+
+---
+
+## 🛡️ Ma reconversion vers le Pentesting
+
+Formation intensive suivant la méthodologie **PTES** (Penetration Testing Execution Standard). Apprentissage entièrement documenté dans **[pentest-learning](https://github.com/minouche-hdz/pentest-learning)**.
+
+### Roadmap certifications
+| Certification | Organisme | Statut |
 |---|---|---|
-| ✅ Cybersecurity Certificate | Google | Octobre 2025 |
-| ✅ Cybersecurity 101 | TryHackMe | Mars 2026 |
+| Jr Penetration Tester | TryHackMe | 🟡 En cours (Déc. 2025 – Mai 2026) |
+| Cyber Security 101 | TryHackMe | ✅ Terminé (Jan. 2026) |
+| Google Cybersecurity | Google / Coursera | ✅ Terminé (Oct. 2025) |
+| eJPT | eLearnSecurity | 🎯 Visée |
+| PNPT | TCM Security | 🎯 Visée |
+| OSCP | Offensive Security | 🎯 Visée |
 
-### 🎯 Certifications Visées
-| Certification | Statut |
-|---|---|
-| eJPT | Jr Penetration Tester path — 42% ✓ |
-| PNPT | À venir |
-| OSCP | À venir |
+### Compétences validées
+**Reconnaissance & Énumération** — Nmap, Gobuster, énumération de sous-domaines, OSINT
+**Exploitation Web** — OWASP Top 10, SQL Injection (manuelle & SQLMap), XSS, CSRF, LFI/RFI, Burp Suite (Proxy, Repeater, Intruder)
+**Post-Exploitation & Élévation de privilèges**
+- Linux : LinPeas, exploitation SUID, techniques manuelles
+- Windows : WinPeas, Unquoted Service Paths, techniques Potato, contournement Defender, élévation SYSTEM
 
-### 🏆 Compétences Validées
+**Active Directory** *(en cours)* — Kerberos (ASREPRoasting, Kerberoasting), Responder/NTLMv2, BloodHound, Impacket, Pass-the-Hash, Golden Ticket
+**Reporting** — Rapports professionnels avec scores CVSS, PoC, analyse d'impact et remédiation
 
-#### 🔍 Reconnaissance & Énumération
-- **Reconnaissance Active** : Nmap (scan de ports, détection de services et OS), énumération de services
-- **Énumération Web** : Gobuster, Directory Busting, énumération de sous-domaines
-- **OSINT** : Techniques de reconnaissance passive
+### 🧪 Homelab DevSecOps & Zero Trust
+Environnement personnel pour concevoir, tester et sécuriser des architectures avant leur mise en production.
 
-#### 🕸️ Exploitation Web
-- **OWASP Top 10** : Maîtrise des vulnérabilités web courantes
-- **SQL Injection** : Exploitation manuelle et automatisée (SQLMap)
-- **XSS, CSRF, LFI/RFI** : Identification et exploitation
-- **Burp Suite** : Maîtrise du Proxy, Repeater, Intruder
+`Proxmox` `K3s` `Docker` `NetBird` `OPNsense` `Authentik` `CrowdSec` `Wazuh` `Prometheus` `Loki` `Grafana` `Traefik` `GitLab CI/CD` `Ollama`
 
-#### 🚀 Post-Exploitation & Élévation de Privilèges
-- **Linux** : 
-  - Énumération avec LinPeas
-  - Exploitation de binaires SUID
-  - Techniques d'élévation de privilèges manuelles
-- **Windows** : 
-  - Énumération avec WinPeas
-  - Exploitation de Unquoted Service Paths
-  - Techniques Potato (JuicyPotato, RoguePotato)
-  - Contournement de Windows Defender
-  - Élévation vers SYSTEM
-
-#### 🏢 Active Directory (En cours)
-- **Concepts fondamentaux** : Domaines, Forêts, GPO, Kerberos
-- **Attaques réseau** : Interception avec Responder, cracking de hashes NTLMv2
-- **Kerberos** : ASREPRoasting, Kerberoasting
-- **Outils** : BloodHound, Impacket
-- **Mouvement latéral** : Pass-the-Hash, Golden Ticket
-
-#### 📝 Reporting
-- Rédaction de rapports professionnels avec scores CVSS
-- Documentation de PoC (Proof of Concept)
-- Analyse d'impact et recommandations de remédiation
-
-### 🧪 Mon Homelab
-- **Virtualisation** : UTM (Apple Silicon)
-- **Machine d'attaque** : Kali Linux
-- **Cibles** : 
-  - Metasploitable 2 (Linux)
-  - Windows 11 ARM (Lab vulnérable personnalisé)
-- **Isolation réseau** : Configuration Host-only/NAT
-
-### 📚 Progression Documentée
-- **24 leçons** couvrant tout le spectre du pentest (de la mise en place du lab aux attaques AD avancées)
-- **5 writeups** détaillés avec méthodologie PTES
-- **Roadmap structurée** suivant les phases : Fondamentaux → Lab → Reconnaissance → Exploitation → Post-Exploitation → Reporting → Expert
+### 🎯 Lab d'entraînement pentest
+- Virtualisation : UTM (Apple Silicon), machine d'attaque Kali Linux
+- Cibles : Metasploitable 2, Windows 11 ARM (lab vulnérable personnalisé)
+- Isolation réseau Host-only/NAT
 
 ---
 
-## 🛠️ Stack Technique
+## 💻 Stack technique
 
-### 💻 Développement
-*   **Langages** : Python, Java, JavaScript (Node.js), Shell Scripting
-*   **Frameworks Backend** : NestJS, Express.js, Ruby on Rails, Laravel (PHP)
-*   **Bases de Données** : PostgreSQL, MySQL, MongoDB
-*   **DevOps** : Git, Docker, Docker Compose, CI/CD
-*   **APIs** : RESTful, GraphQL, JWT, OAuth 2.0
-
-### 🔐 Cybersécurité
-*   **Outils d'Audit** : Nmap, Burp Suite, Metasploit, SQLMap, Gobuster
-*   **Énumération** : LinPeas, WinPeas, enum4linux, BloodHound
-*   **Exploitation** : Impacket, Responder, John the Ripper, Hashcat
-*   **Analyse Réseau** : Wireshark, tcpdump
-*   **Frameworks** : OWASP Top 10, PTES, MITRE ATT&CK
+**Backend** : Python, Java, Node.js, Ruby on Rails, PHP/Symfony, GraphQL, SQL
+**Infra & DevSecOps** : Docker, Kubernetes (K3s), Proxmox, NetBird, OPNsense, GitLab CI/CD
+**Sécurité offensive** : Nmap, Burp Suite, Metasploit, SQLMap, Gobuster, Wireshark, Nikto, theHarvester, LinPeas/WinPeas, BloodHound, Impacket, John the Ripper, Hashcat
 
 ---
 
-## 💡 Projets Réalisés & En Cours
+## 🚀 Projets
 
-### 🎬 Prowstream (En cours)
-Refonte personnelle de Plex avec architecture moderne et sécurisée :
-- **Backend** : NestJS avec architecture modulaire
-- **Frontend** : React/Next.js
-- **Features** : 
-  - Streaming HLS optimisé avec FFmpeg
-  - Authentification JWT sécurisée
-  - API RESTful complète
-  - Intégration Prowlarr pour la recherche de torrents
-  - Déploiement Docker multi-instances avec Nginx load balancer
-  - Tests unitaires et d'intégration
+**[ProStream-backend](https://github.com/minouche-hdz/ProStream-backend)** — Refonte personnelle de Plex : backend NestJS modulaire, frontend React/Next.js, streaming HLS (FFmpeg), auth JWT, déploiement Docker multi-instances avec Nginx *(Juil. 2025 – présent)*
 
-### 🛡️ Pentest Learning Journey
-Dépôt structuré documentant mon apprentissage complet en pentesting :
-- **24 leçons** : De la mise en place du lab aux attaques Active Directory avancées
-- **Writeups professionnels** : Rapports d'audit avec méthodologie PTES, PoC et recommandations
-- **Homelab fonctionnel** : Environnement de test isolé et sécurisé
-- **Méthodologie** : Suivant les standards PTES et OWASP
+**[dvwa-audit-training](https://github.com/minouche-hdz/dvwa-audit-training)** — Audit de vulnérabilités web sur DVWA, documentation complète d'exploitation et de remédiation *(2025)*
 
-### 🔐 Projets à Venir
-- **Application Web Vulnérable** : DVWA-like avec documentation complète d'exploitation et de remédiation
-- **Scripts d'Automatisation** : Suite d'outils Python pour l'automatisation de tâches de pentest (scan, énumération, reporting)
-- **Write-ups CTF** : Documentation de mes résolutions sur TryHackMe, HackTheBox et autres plateformes
-- **API RESTful Sécurisée** : Démonstration de bonnes pratiques de sécurité (OWASP, authentification, rate limiting, etc.)
+**[pentest-learning](https://github.com/minouche-hdz/pentest-learning)** — Dépôt structuré : writeups avec méthodologie PTES, PoC et recommandations, roadmap Fondamentaux → Lab → Reconnaissance → Exploitation → Post-Exploitation → Reporting
 
 ---
 
 ## 🎯 Objectifs 2026
-
-- [x] **TryHackMe Cybersecurity 101** ✅ Mars 2026
-- [ ] **Certification eJPT** (eLearnSecurity Junior Penetration Tester)
-- [ ] **Certification OSCP** (Offensive Security Certified Professional)
-- [ ] Participer activement à des CTF (Capture The Flag)
-- [ ] Compléter 50+ machines sur TryHackMe/HackTheBox
-
----
-
-## 🌐 Connectons-nous
-
-*   **TryHackMe** : [tryhackme.com/p/Spyder.minou](https://tryhackme.com/p/Spyder.minou) — Top 7% 🇫🇷
-*   **LinkedIn** : [linkedin.com/in/emilien-hernandez](https://www.linkedin.com/in/emilien-hernandez)
-*   **Email** : emilien.hernandez10@icloud.com
-*   **GitHub** : Explore mes dépôts pour découvrir mes projets et writeups !
-
-N'hésite pas à me contacter si tu as des questions, des opportunités ou simplement pour échanger sur la cybersécurité ! 🚀
+- [x] TryHackMe Cybersecurity 101 ✅
+- [x] Google Cybersecurity ✅
+- [ ] Certification eJPT
+- [ ] Certification PNPT
+- [ ] Certification OSCP
+- [ ] Participer activement à des CTF (HackTheBox, TryHackMe)
 
 ---
 
-*Note : Tous mes travaux en cybersécurité sont strictement à but éducatif et réalisés dans un cadre légal et éthique.*
+## 📫 Me contacter
+
+[LinkedIn](https://www.linkedin.com/in/emilien-hernandez) · [TryHackMe](https://tryhackme.com/p/Spyder.minou) · emilien.hernandez10@icloud.com
+
+*Tous mes travaux en cybersécurité sont strictement à but éducatif, réalisés dans un cadre légal et éthique.*
